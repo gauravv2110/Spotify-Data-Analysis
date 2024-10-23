@@ -3,30 +3,54 @@
 Dataset Overview
 This dataset contains music tracks from various albums, providing a comprehensive analysis of their characteristics and performance metrics on platforms like YouTube and Spotify.
 
-Columns:
+## Columns:
+
 Album: The name of the album to which the track belongs.
+
 Album_type: The type of album (e.g., studio, compilation).
+
 Danceability: A measure of how suitable a track is for dancing based on tempo, rhythm stability, and overall beat strength.
+
 Energy: A measure of intensity and activity, reflecting the perceived intensity of a track.
+
 Loudness: The overall loudness of a track measured in decibels (dB).
+
 Speechiness: A measure of the presence of spoken words in a track.
+
 Acousticness: A measure of the acoustic quality of a track, indicating the likelihood it was recorded using acoustic instruments.
+
 Instrumentalness: A measure of whether a track is likely to be instrumental, i.e., lacking vocals.
+
 Liveness: A measure indicating the presence of an audience in the recording.
+
 Valence: A measure of the musical positiveness of a track, with higher values indicating a happier sound.
+
 Tempo: The speed of the track, measured in beats per minute (BPM).
+
 Duration_min: The length of the track in minutes.
+
 Title: The name of the track.
+
 Channel: The YouTube channel hosting the track.
+
 Views: The total number of views the track has received on YouTube.
+
 Likes: The total number of likes on the track.
+
 Comments: The number of comments made on the track.
+
 Licensed: Indicates whether the track is officially licensed.
+
 official_video: Boolean indicating if the track has an official music video.
+
 Stream: Indicates the streaming platform.
+
 EnergyLiveness: A derived metric combining energy and liveness scores to gauge overall track performance.
+
 most_playedon: Indicates whether the track is more played on Spotify or YouTube.
-Analysis Questions
+
+## Analysis Questions
+
 What are the unique artist names in the dataset?
 
 Purpose: To identify the diversity of artists represented in the dataset.
@@ -87,5 +111,6 @@ Calculate the difference between each track's YouTube views and the artist's ave
 
 Purpose: To identify tracks that are performing significantly above or below an artist's average.
 Relevant Column: Title, Artist, Views.
-Purpose of Analysis
+
+## Purpose of Analysis
 This dataset can be analyzed to derive insights about musical trends, artist performances, audience engagement, and the effectiveness of different track characteristics on viewer response.
